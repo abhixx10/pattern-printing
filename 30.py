@@ -1,9 +1,0 @@
-n  = 4
-print("\n30. Diagonal")
-for i in range(n):
-    for j in range(n):
-        if i==j:
-            print("*", end=" ")
-        else:
-            print(" ", end=" ")
-    print()
